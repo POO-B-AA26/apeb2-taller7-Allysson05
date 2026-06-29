@@ -43,8 +43,8 @@ class Movil{
 }
 
 class Mensaje{
-    public Movil remitente;
-    public Movil destinatario;
+    protected Movil remitente;
+    protected Movil destinatario;
 
     public Mensaje(Movil remitente, Movil destinatario) {
         this.remitente = remitente;

@@ -73,10 +73,10 @@ class Zona {
 }
 
 class Entrada {
-    public int    id;
-    public Zona   zona;
-    public String nombreComprador;
-    public double precio;
+    protected int    id;
+    protected Zona   zona;
+    protected String nombreComprador;
+    protected double precio;
 
     public Entrada(int id, Zona zona, String nombreComprador) {
         this.id = id;
